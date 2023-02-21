@@ -1,0 +1,15 @@
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.button-success {
+  color: #ffffff;
+  background-color: #f7931e;
+  border: 2px solid #f7931e;
+  height: 40px;
+  width: 150px;
+  border-radius: 5%;
+}

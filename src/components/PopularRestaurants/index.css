@@ -1,0 +1,46 @@
+.restaurants-container {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  background: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .restaurants-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+  }
+}
+.horizontal-line {
+  border: 1px dashed #cbd2d9;
+}
+.list-restaurants {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 165px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .list-restaurants {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+  }
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+  margin-left: 5px;
+  border: 1px solid #334155;
+  box-sizing: border-box;
+}

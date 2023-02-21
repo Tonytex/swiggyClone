@@ -1,0 +1,80 @@
+.footer-container {
+  width: 100%;
+  margin-left: 45px;
+  /* Light / blue-gray / 900 */
+  background: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foot-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.footer-image {
+  height: 39px;
+  width: 49px;
+}
+.foot-head {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+  color: #ffffff;
+}
+.foot-description {
+  width: 479px;
+  height: 32px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pin {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  margin-right: 15px;
+  border-radius: 5%;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  margin-right: 15px;
+  border-radius: 5%;
+}
+.twitter {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  margin-right: 15px;
+  border-radius: 5%;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  margin-right: 15px;
+  border-radius: 5%;
+}

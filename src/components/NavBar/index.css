@@ -1,0 +1,145 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  left: 0%;
+  right: 0%;
+  top: 0.38%;
+  bottom: 81.51%;
+  /* Light / blue-gray / 50 */
+  background: #f8fafc;
+  height: 96px;
+}
+@media screen and (max-width: 768px) {
+  .nav-header {
+    height: 64px;
+  }
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.website-logo {
+  height: 39px;
+  width: 49px;
+}
+.logo-heading {
+  height: 32px;
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #f7931e;
+}
+.nav-mobile-view {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-mobile-view {
+    display: block;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hamburger-icon {
+    align-self: flex-end;
+    background: #183b56;
+  }
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-mobile-btn {
+  background-color: transparent;
+}
+.hamburger-icon {
+  left: 12.5%;
+  right: 12.5%;
+  top: 25%;
+  bottom: 25%;
+
+  background: #183b56;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.nav-large-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+}
+.logo-large-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .nav-large-container {
+    display: none;
+  }
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav-menu-item {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.logout-desktop-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  width: 73px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  color: #f8fafc;
+}
+.active {
+  color: #f7931e;
+}
+.nav-items-popup {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.nav-item-type {
+  text-decoration: none;
+  color: black;
+}
+.modal-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #fff;
+  background-size: cover;
+}
+.button-close {
+  background-color: transparent;
+  color: black;
+}

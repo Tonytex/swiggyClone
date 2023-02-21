@@ -1,0 +1,108 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.restaurant-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/chandu626/image/upload/v1633143065/Rectangle_1399_mmb3xs.png');
+  width: 100%;
+}
+.image-item {
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+  margin: 3%;
+}
+@media screen and (max-width: 768px) {
+  .image-item {
+    left: -68px;
+    top: -54px;
+    width: 221px;
+    height: 221px;
+    border-radius: 133.981px;
+  }
+}
+.banner-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .banner-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    color: #ffffff;
+    font-size: 16px;
+  }
+}
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 0%;
+}
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+.total {
+  color: #ffffff;
+}
+.cuisine {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Light / base / white */
+  color: #ffffff;
+  margin: 0%;
+}
+@media screen and (max-width: 768px) {
+  .cuisine {
+    font-size: 16px;
+  }
+}
+.rating-and-price-container {
+  display: flex;
+  margin: 2%;
+  align-items: center;
+}
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+.rating-item-container {
+  display: flex;
+  align-items: center;
+}
+.line {
+  width: 33px;
+  height: 0px;
+  /* Light / blue-gray / 200 */
+  border: 1px solid #e2e8f0;
+  transform: rotate(90deg);
+}
+.food-items-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}

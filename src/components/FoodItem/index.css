@@ -1,0 +1,78 @@
+.food-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.food-image {
+  height: 150px;
+  width: 255px;
+  border-radius: 5%;
+}
+@media screen and (max-width: 768px) {
+  .food-image {
+    height: 100px;
+    width: 160px;
+  }
+}
+.food-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2%;
+  width: 122px;
+}
+.food-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.2px;
+  /* Light / blue-gray / 700 */
+  color: #334155;
+  margin: 0%;
+}
+.cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Light / blue-gray / 700 */
+  margin: 0%;
+  color: #334155;
+}
+.star-image {
+  width: 12px;
+  height: 12px;
+  color: #ffcc00;
+}
+.rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Light / blue-gray / 700 */
+  margin: 0%;
+  color: #334155;
+}
+.add-button {
+  border: 2px solid #ffa412;
+  box-sizing: border-box;
+  border-radius: 8px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  background-color: transparent;
+}
+.quantity-buttons {
+  display: flex;
+  background-color: #ffffff;
+}
